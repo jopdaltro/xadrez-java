@@ -1,14 +1,15 @@
 package application;
 
-import tabuleiro.Posicao;
+import tabuleiro.Tabuleiro;
+import xadrez.PartidaDeXadrez;
 
 public class progama {
 
 	public static void main(String[] args) {
-		System.out.println("heloo word");
-		Posicao posicao = new Posicao(5,3);
-		System.out.println(posicao);
-
+		Tabuleiro tabuleiro = new Tabuleiro(8,8);
+		PartidaDeXadrez partidaDeXadrez = new PartidaDeXadrez();
+		UI.PrintTabuleiro(partidaDeXadrez.getPeças());
+		
 	}
 
 }
