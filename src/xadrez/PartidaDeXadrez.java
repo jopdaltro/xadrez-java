@@ -26,5 +26,6 @@ public class PartidaDeXadrez {
 	
 	private void configuracaoInicial() {
 		tabuleiro.ColocarPeça(new Torre(tabuleiro, Cor.BRANCAS), new Posicao(3,3));
+		tabuleiro.ColocarPeça(new Torre(tabuleiro, Cor.BRANCAS), new Posicao(3,3));
 	}
 }
